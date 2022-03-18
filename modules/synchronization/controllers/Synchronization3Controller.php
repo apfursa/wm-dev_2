@@ -24,25 +24,25 @@ use app\models\synchronization\Category;
 class Synchronization3Controller extends \yii\web\Controller {
 
     // Синхронизация компании
-//    public function actionSynchronCompany() {
-//        Company::synchronization();
-//        return $this->render('synchronCompany');
-//    }
+    public function actionSynchronCompany() {
+        Company::synchronization();
+        return $this->render('synchronCompany');
+    }
 
-//    public function actionSynchronDeal() {
-//        Deal::synchronization();
-//        return $this->render('synchronDeal');
-//    }
+    public function actionSynchronDeal() {
+        Deal::synchronization();
+        return $this->render('synchronDeal');
+    }
 
-//    public function actionSynchronLead() {
-//        Lead::synchronization();
-//        return $this->render('synchronLead');
-//    }
-//
-//    public function actionSynchronTel() {
-//        Tel::synchronization();
-//        return $this->render('synchronTel');
-//    }
+    public function actionSynchronLead() {
+        Lead::synchronization();
+        return $this->render('synchronLead');
+    }
+
+    public function actionSynchronTel() {
+        Tel::synchronization();
+        return $this->render('synchronTel');
+    }
 
     public function actionSynchronEmployees() {
         Employees::synchronization();
