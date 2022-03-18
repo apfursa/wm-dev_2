@@ -1,0 +1,9 @@
+#! /bin/sh
+#
+# Created by configure
+
+'./configure' \
+'--enable-xdebug' \
+'--with-php-config=/usr/local/php-cgi/7.4/bin/php-config' \
+'--prefix=/home/w/wmdev/.local' \
+"$@"
