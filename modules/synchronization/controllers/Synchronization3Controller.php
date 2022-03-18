@@ -34,15 +34,15 @@ class Synchronization3Controller extends \yii\web\Controller {
 //        return $this->render('synchronDeal');
 //    }
 
-    public function actionSynchronLead() {
-        Lead::synchronization();
-        return $this->render('synchronLead');
-    }
-
-    public function actionSynchronTel() {
-        Tel::synchronization();
-        return $this->render('synchronTel');
-    }
+//    public function actionSynchronLead() {
+//        Lead::synchronization();
+//        return $this->render('synchronLead');
+//    }
+//
+//    public function actionSynchronTel() {
+//        Tel::synchronization();
+//        return $this->render('synchronTel');
+//    }
 
     public function actionSynchronEmployees() {
         Employees::synchronization();
